@@ -1,0 +1,424 @@
+*{font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+padding: 0px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  a.nav-link {
+    font-family: 'Poppins';
+}
+*{
+    font-family: 'Poppins';
+}
+h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+h3 {
+    font-weight: 900;
+    margin: 0px;
+}
+h4 {
+    font-weight: 900;
+    text-align: center;
+    color: #008DD2;
+    font-size: 27px;
+}
+.contenedor.logo img {
+    width: 100%;
+}.contenedor.logo {
+    width: 127px;
+}
+.nosotros p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 201px;
+}
+a.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contenedor.logo {
+    width: 150px;
+}
+section.main-banner {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./img/banner.jpeg);
+    background-size: cover;
+    margin-bottom: -30px;
+}
+section.main-banner p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: -31px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    margin: 0px 150px;
+    justify-content: space-between;
+}
+@media (max-width:620px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        margin: 0px 0px;
+        justify-content: space-between;
+    }
+}
+section#flota {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.flota h3 {
+    background: #008DD2;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.card-flotas {
+    width: 278px;
+    margin-bottom: 10px;
+}
+.img-containt {
+    width: 100%;
+}
+.img-containt img{
+    width: 100%;
+}
+h5 {
+    background: #008DD2;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+.asientos p {
+    font-weight: 900;
+    color: #483c3c;
+    margin: 0px;
+}.whatsapp-color{
+    background-color: #61CE70;    ;
+}
+a.reserv-button {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.button-reserva{
+    text-align: center;
+    padding: 10px;
+    border-radius:0px 0px 10px 10px;
+}
+.list-flotas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+i.bi {
+    color: white;
+    background: #008DD2;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img-butacas {
+    width: 56px;
+}
+.img-butacas img{
+    width: 100%;
+}
+.asientos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-horizontal {
+    background: #008DD2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+
+form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    border-color: #008DD2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 141, 210, 0.2);
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  a#wpcf7-form-control.has-spinner.wpcf7-submit {
+    display: inline-block;
+    background-color: #008DD2;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a#wpcf7-form-control.has-spinner.wpcf7-submit:hover {
+    background-color: #0077b2;
+  }
+  
+  .secciona, .seccionb, .seccionc, .secciond {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .secciona label, .seccionb label, .seccionc label, .secciond label {
+    width: 48%;
+  }
+  
+  @media (max-width: 600px) {
+    .secciona label, .seccionb label, .seccionc label, .secciond label {
+      width: 100%;
+    }
+  }.form-container {
+    width: 50%;
+    padding: 49px;
+}
+.texto-contacto {
+    margin-top: 40px;
+    width: 50%;
+}
+.contenedor-doble {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a#whatsappLink {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: right;
+}
+.whatssap-form {
+    text-align: end;
+}
+@media (max-width: 950px) {
+  .contenedor-doble {
+    display: block;
+    justify-content: space-evenly;
+  }
+  .form-container {
+    width: 100% !important;
+    padding: 49px;
+  }
+  .texto-contacto {
+    margin-top: 40px;
+    padding: 50px;
+    width: 100%;
+  }
+}
+
+.img-cura {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px; /* Asegura que cualquier parte de la imagen que se sobresalga se oculte */
+  }
+  
+  .img-cura img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubre el contenedor sin deformarse */
+    display: block;
+    filter: brightness(0.7);  /* Elimina cualquier espacio en blanco debajo de la imagen */
+  }
+  .nosotros-a {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+}
+  .nosotros-a .whatsapp-color {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+/* SWIPER  */
+swiper-container {
+    width: 500px;
+    height: 400px;
+}
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #nosotros{
+    margin: 40px 0px;
+  }
+
+  .footer {
+    background-color: #008DD2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer h2 {
+    margin-top: 0;
+  }
+
+  .footer p {
+    margin: 10px 0;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+  }
+
+  .social-icons {
+    margin: 20px 0;
+  }
+
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #005c99;
+  }
+
+  @media (max-width: 600px) {
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 5px;
+    }
+    .footer-container {
+      flex-direction: column;
+    }
+  }
+  /* CENTRAR ICONO DE WHATSAPP DENTRO DEL FLOAT */
+  .whatsapp-float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-float i {
+    margin-top: 16px;
+}
+i.bi.bi-whatsapp {
+  background: none;
+  padding: 0px;
+  margin: 0px;
+}
+@media (max-width: 768px) {
+
+  swiper-container {
+    width: 100%;
+    height: 400px;
+}
+
+  iframe {
+    width: 100%;
+}
+}
+
